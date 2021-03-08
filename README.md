@@ -11,6 +11,6 @@ The dataset will be process before it is used for training. The null values in t
 Model Name | Testing Accuracy
 ------------ | -------------
 Support Vector Classifier | 95.40%
-**Random Forest Classifier** | **95.40%**
+**Random Forest Classifier** | **95.60%**
 
 
