@@ -7,10 +7,12 @@ The dataset is downlaoded from Kaggle (https://www.kaggle.com/fedesoriano/stroke
 # Approach
 The dataset will be process before it is used for training. The null values in the dataset will be fill with the **mean values.** **One-hot encoding** will be used to encode the dataset so that the dataset is "readable" by the machine. This processed dataset will then be split into training and testing for evaluation. After the training process, I choose the best performing algorithm for hyperparameter tuning using GridSearchCV. This is to find the best parameters for the algorithm so that we can have the highest accuracy model.
 
-# Best Model
+# Best Model (after hyperparameter tuning)
 Model Name | Testing Accuracy
 ------------ | -------------
 Support Vector Classifier | 95.40%
-**Random Forest Classifier** | **95.60%**
+Random Forest Classifier | 95.40%
+
+From the result above, we can see that both the models have the same testing accuracy.
 
 
