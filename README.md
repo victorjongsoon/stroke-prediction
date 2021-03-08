@@ -10,9 +10,17 @@ The dataset will be process before it is used for training. The null values in t
 # Best Model (after hyperparameter tuning)
 Model Name | Testing Accuracy
 ------------ | -------------
-Support Vector Classifier | 95.40%
-Random Forest Classifier | 95.40%
+**Support Vector Classifier** | **95.40%**
+Random Forest Classifier | 95.30%
 
-From the result above, we can see that both the models have the same testing accuracy.
+From the result above, we can see that support vector classifier has a **0.01%** higher testing accuracy as compared to random forest classifier. 
 
+# What can be improved in this project?
+1. During the hyperparameter tuning process, I could tune more parameters (e.g. SVC kernel - linear, rbf, poly, sigmoid etc.)
+2. I could try different binary classification algorithms such as naive bayes, nearest neighbor, neural networks etc.
+
+# Skillset required for the project (Machine Learning)
+* Python (Numpy, Pandas etc.)
+* Data Structures and Data Modeling
+* Machine learning algorithms (e.g. Support Vector Machine, Random Forest, Linear Regression, Logistic Regression, k- Nearest Neighbors, Decision Tree etc.)
 
